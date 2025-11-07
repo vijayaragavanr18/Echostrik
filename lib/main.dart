@@ -22,23 +22,31 @@ import 'services/live_audio_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize Supabase
-  await Supabase.initialize(
-    url: SupabaseConfig.supabaseUrl,
-    anonKey: SupabaseConfig.supabaseAnonKey,
-  );
+  try {
+    // Initialize Supabase
+    await Supabase.initialize(
+      url: SupabaseConfig.supabaseUrl,
+      anonKey: SupabaseConfig.supabaseAnonKey,
+    );
+  } catch (e) {
+    print('Supabase initialization error: $e');
+  }
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
 
-  // Initialize anonymous auth
-  final authService = AuthService();
-  await authService.signInAnonymously();
+    // Initialize anonymous auth
+    final authService = AuthService();
+    await authService.signInAnonymously();
 
-  // Add demo data for testing
-  final firebaseService = FirebaseService();
-  await firebaseService.addDemoEchoes();
+    // Add demo data for testing
+    final firebaseService = FirebaseService();
+    await firebaseService.addDemoEchoes();
+  } catch (e) {
+    print('Firebase initialization error: $e');
+  }
 
   runApp(const EchoStrikApp());
 }
