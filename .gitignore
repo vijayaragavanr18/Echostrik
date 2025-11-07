@@ -44,8 +44,8 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# API Keys and sensitive configuration
-lib/config/api_config.dart
+# API Keys and sensitive configuration - COMMENTED OUT FOR VERCEL DEPLOYMENT
+# lib/config/api_config.dart
 *.env
 .env
 
