@@ -6,11 +6,11 @@ class AIService {
   late GenerativeModel _model;
 
   AIService() {
-    // Gemini 1.5 Flash API Key from config
+    // Gemini 2.5 Flash API Key from config
     const apiKey = ApiConfig.geminiApiKey;
 
     _model = GenerativeModel(
-      model: 'gemini-1.5-flash', // Changed back to flash for availability
+      model: 'gemini-2.5-flash',
       apiKey: apiKey,
       generationConfig: GenerationConfig(
         temperature: 0.7,
