@@ -7,6 +7,13 @@
 ## 🌟 Core Idea
 EchoStrik is a voice-first mental health platform designed to help users express, process, and share their emotions anonymously. By combining audio journaling, AI-powered empathy, and community support, EchoStrik aims to create a safe space for emotional well-being.
 
+## 📸 Screenshots
+<!-- Add your screenshots below. Example: -->
+<p align="center">
+  <img src="docs/screenshot_home.png" width="350" alt="Home Screen" />
+  <img src="docs/screenshot_record.png" width="350" alt="Record Screen" />
+</p>
+
 ## 🎤 What Makes EchoStrik Unique?
 - **Voice-Based Emotional Sharing:** Users record and share voice messages ("echoes") about their feelings, moods, and experiences.
 - **Anonymous & Safe:** No personal data required. Users are identified by anonymous IDs, ensuring privacy and safety.
