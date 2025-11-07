@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26607371555",
+    "project_id": "echostrik",
+    "storage_bucket": "echostrik.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26607371555:android:a8eb29f153289e2fbc7896",
+        "android_client_info": {
+          "package_name": "echostrik.vijayaragavan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhcaBFqyGvMBcmjYLAYMCCRcQjX54BieU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
