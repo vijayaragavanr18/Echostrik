@@ -1,0 +1,5 @@
+# Vercel build cache
+.vercel
+
+# Flutter build output (will be rebuilt on Vercel)
+build/
