@@ -50,6 +50,17 @@ EchoStrik is a voice-first mental health platform designed to help users express
    flutter run
    ```
 
+## ⚠️ Important Notes
+
+### For Users:
+- **Disable ad blockers** when using the app. Ad blockers (uBlock Origin, AdBlock, Brave Shields) block Firebase/Firestore connections.
+- **Whitelist the domain** or disable ad blockers for `echostrik.vercel.app` to ensure full functionality.
+
+### For Developers:
+- Firebase configuration included for web deployment
+- API keys are in the repository for demo purposes - **rotate them for production**
+- Supabase integration available as alternative backend
+
 ## 💡 Vision & Roadmap
 - **Phase 1: Core Data Flow**
   - Replace demo data with real Firestore queries
