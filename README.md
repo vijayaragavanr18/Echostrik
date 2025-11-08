@@ -50,6 +50,11 @@ EchoStrik is a voice-first mental health platform designed to help users express
    flutter run
    ```
 
+## 🌐 Live Demo
+Try the interactive web demo: [https://echostrik-qpb7o90qv-vijayaragavan-s-projects.vercel.app](https://echostrik-qpb7o90qv-vijayaragavan-s-projects.vercel.app)
+
+**Note:** Disable ad blockers for full functionality (Firebase/Firestore connections).
+
 ## ⚠️ Important Notes
 
 ### For Users:
