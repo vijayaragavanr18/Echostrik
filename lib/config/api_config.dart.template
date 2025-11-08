@@ -1,0 +1,9 @@
+class ApiConfig {
+  // TEMPLATE FILE - Replace with your actual API keys
+  // Copy this file to api_config.dart and add your keys
+  
+  static const String geminiApiKey = String.fromEnvironment(
+    'GEMINI_API_KEY',
+    defaultValue: 'YOUR_GEMINI_API_KEY_HERE',
+  );
+}

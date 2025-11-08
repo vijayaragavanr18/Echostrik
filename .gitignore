@@ -52,3 +52,4 @@ app.*.map.json
 # Firebase configuration (if contains sensitive data)
 # Uncomment if your firebase config has sensitive info
 # lib/firebase_options.dart
+.vercel
